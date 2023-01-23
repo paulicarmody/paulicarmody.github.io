@@ -1,0 +1,67 @@
+:root {
+  --my-color-variable: #000000;
+}
+
+.element {
+  /* This is calculated as #000000! */
+  color: var(--my-color-variable);
+}
+
+:root {
+  --color-bg: #ffffff;
+  --color-fg: #000000;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #000000;
+    --color-fg: #ffffff;
+  }
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+th,
+td {
+  padding: 1px;
+}
+
+a { 
+	color: #a00;
+}
+
+a.left
+{
+    position: relative;
+}
+a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  color: #a00;
+  left: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+b {
+font-size: 120%;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
