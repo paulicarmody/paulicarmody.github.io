@@ -13,10 +13,20 @@
 }
 
 .content {
-  max-width: 480px;
-  margin: auto;
+		padding-right: 10%;
+		padding-left: 10%;
+		margin: auto;
+		font-family: monospace;
 }
 
+@media (min-width: 600px) {
+  .content {
+	  	padding-right: 30%;
+		padding-left: 30%;
+		margin: auto;
+		font-family: monospace;
+	}
+}
 
 body {
   background-color: var(--color-bg);
@@ -35,22 +45,6 @@ a {
 	color: #a00;
 }
 
-a.left
-{
-    position: center;
-}
-a.left:before {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: 0;
-  color: #a00;
-  left: 0;
-  visibility: hidden;
-  transition: all 0.3s ease-in-out;
-}
-
 b {
 font-size: 120%;
 }
@@ -60,9 +54,11 @@ font-size: 120%;
   color: white;
 }
 
-@media (max-width: 767px){
+@media (max-width: 480px){
     body {
-        padding-right: 25px;
-        padding-left: 25px;
+		margin: auto;
+		font-family: monospace;
+		font-size: 1.1em;
     }
+
  }
