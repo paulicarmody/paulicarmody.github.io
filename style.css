@@ -12,12 +12,16 @@
   --color-fg: #000000;
 }
 
-html, body {height:90%; } body {margin:0; padding: 0;}
-html, body {margin:0;padding:15px;}
+.content {
+  max-width: 480px;
+  margin: auto;
+}
+
 
 body {
   background-color: var(--color-bg);
   color: var(--color-fg);
+  
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,26 +31,13 @@ body {
   }
 }
 
-table {
-  border-collapse: collapse;
-}
-
-thead th:nth-child(2) {
-  width: 20%;
-}
-
-th,
-td {
-  padding: 1px;
-}
-
 a { 
 	color: #a00;
 }
 
 a.left
 {
-    position: relative;
+    position: center;
 }
 a.left:before {
   content: "";
@@ -68,3 +59,10 @@ font-size: 120%;
   background-color: black;
   color: white;
 }
+
+@media (max-width: 767px){
+    body {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+ }
