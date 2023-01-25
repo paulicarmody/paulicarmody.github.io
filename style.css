@@ -13,18 +13,28 @@
 }
 
 .content {
-		padding-right: 10%;
-		padding-left: 10%;
-		margin: auto;
-		font-family: monospace;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+	font-family: monospace;
 }
 
 @media (min-width: 600px) {
   .content {
-	  	padding-right: 30%;
-		padding-left: 30%;
-		margin: auto;
-		font-family: monospace;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+	  font-family: monospace;
 	}
 }
 
@@ -41,9 +51,15 @@ body {
   }
 }
 
-a { 
+.hyperlink { 
 	color: #a00;
+  text-decoration: none;
+   transition: color 0.3s linear;
+   -webkit-transition: color 0.3s linear;
+   -moz-transition: color 0.3s linear;
 }
+
+.hyperlink:hover { color: #e55}
 
 b {
 font-size: 120%;
@@ -56,9 +72,8 @@ font-size: 120%;
 
 @media (max-width: 480px){
     body {
-		margin: auto;
-		font-family: monospace;
-		font-size: 1.1em;
+		  font-family: monospace;
+		  font-size: 1.1em;
     }
 
  }
