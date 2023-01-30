@@ -25,6 +25,7 @@
 }
 
 blockquote {
+	background: black;
 	font-style: italic;
 	border-left: 5px solid #a00;
 	margin: 1.5em 10px;
@@ -45,7 +46,7 @@ img {
     bottom: 0;
     left: 0;
     right: 0;
-    martin-right: auto;
+    margin-right: auto;
     margin-left: auto;
 	  font-family: monospace;
 	}
