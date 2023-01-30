@@ -1,0 +1,102 @@
+:root {
+  --my-color-variable: #000000;
+}
+
+.element {
+  /* This is calculated as #000000! */
+  color: var(--my-color-variable);
+}
+
+:root {
+  --color-bg: #ffffff;
+  --color-fg: #000000;
+}
+
+.content {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+	font-family: monospace;
+}
+
+blockquote {
+	font-style: italic;
+	background: #f9f9f9;
+	border-left: 10px solid #a00;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media (min-width: 600px) {
+  .content {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    martin-right: auto;
+    margin-left: auto;
+	  font-family: monospace;
+	}
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+  
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #000000;
+    --color-fg: #ffffff;
+  }
+}
+
+.hyperlink { 
+	color: #a00;
+  text-decoration: none;
+   transition: color 0.3s linear;
+   -webkit-transition: color 0.3s linear;
+   -moz-transition: color 0.3s linear;
+}
+
+.hyperlink:hover { color: #e55}
+
+b {
+font-size: 120%;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 480px){
+    body {
+		  font-family: monospace;
+		  font-size: 1.1em;
+    }
+    
+    .content {
+      position: absolute;
+      padding-right: 10%;
+      padding-left: 10%;
+      margin: auto;
+      width: auto;
+      height: auto;
+    }
+
+ }
