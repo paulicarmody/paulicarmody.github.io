@@ -110,5 +110,14 @@ font-size: 120%;
       width: auto;
       height: auto;
     }
+		
+		.postcontent {
+      position: absolute;
+      padding-right: 10%;
+      padding-left: 10%;
+      margin: auto;
+      width: auto;
+      height: auto;
+    }
 
  }
