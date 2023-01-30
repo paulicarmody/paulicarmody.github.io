@@ -77,7 +77,7 @@ body {
 }
 
 .hyperlink { 
-	color: color(display-p3 0.611 0.119 0.078);
+	color: #a00;
   text-decoration: none;
    transition: color 0.3s linear;
    -webkit-transition: color 0.3s linear;
