@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
    <head>
-	<meta name="apple-itunes-app" content="app-id=1507575984">
 	  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	  <meta name="viewport" content="width=device-width,initial-scale=1"/>
 	  <link rel="icon" href="data:,">
-	  <link href="/style.css" rel="stylesheet" />
+	  <link href="style.css" rel="stylesheet" />
    
-   <title>carmody.me - projects</title>
+   <title>carmody.me - posts</title>
    
    </head>
    
@@ -16,15 +15,10 @@
 	  
 <div class="content">
 
-<h2>Projects <strike>past</strike> and present</h2>⌚ Streamlets for Apple Watch <a class="hyperlink" href="https://apps.apple.com/app/id1507575984">→</a>
-📷 Words on the Street <a class="hyperlink" href="https://medium.com/wordsonthestreet">→</a>
-
-<s>Pi-Man for Apple Watch & iPhone</s>
-<s>ISS Watch for Pebble Smartwatch</s>
-<s>Cleanpress theme for Octopress</s>
-<s>Roasting Pad for iOS</s>
-<s>Posterous Safari Extension</s>
-<s>ShrinkURL for iOS</s>
+<h2>Posts</h2>
+	RIP Pi-man<a class="hyperlink" href="/posts/rip-piman"> →</a>
+	Pi-man for Apple Watch<a class="hyperlink" href="/posts/piman-apple-watch"> →</a>
+	Streamlets for Apple Watch <a class="hyperlink" href="/posts/streamlets-apple-watch">→</a>
 
 <small><center>back <a class="hyperlink" href="/">←</a></center></small>
 
