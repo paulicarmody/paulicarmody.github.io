@@ -1,31 +1,16 @@
-@font-face { 
-	font-family: 'DepartureMono'; 
-	src: 
-		url('/css/fonts/DepartureMono-Regular.woff') 
-		format('opentype'); 
-} 
-
 body { 
-	font-family: 'DepartureMono', sans-serif; 
+	font-family: monospace; 
 	text-align: left; 
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
-} 
-
-header { 
-	background-color: #333; 
-	text-align: center; 
-	color: green; 
-	padding: 20px; 
-	font-size: large; 
-} 
+}
 
 main { 
 	padding: 20px; 
 } 
 	
 	body {
-		font-size: 14.5px;
+		font-size: 14px;
 		line-height: 1.6;
 		margin-top: 1.25em;
 		margin-left: 2em;
@@ -39,7 +24,7 @@ main {
 		}
 
 		a {
-			color: #494949;
+			color:  #6b6c57 var(--clay);
 			text-shadow: 0pt 0pt 20pt #AAA4;
 		}
 
@@ -94,7 +79,7 @@ main {
 		vertical-align: top;
 		width: 10px;
 		/* Set height to the line height of .text */
-		height: 18pt;
+		height: 18px;
 		-webkit-animation: blink 1s step-end infinite;
 		animation: blink 1s step-end infinite;
 	}
