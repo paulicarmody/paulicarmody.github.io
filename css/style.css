@@ -38,7 +38,7 @@ main {
 	@media (prefers-color-scheme: dark) {
 		body {
 			color: #ffffff;
-			background: #121212;
+			background: #000000;
 		}
 
 		a {
